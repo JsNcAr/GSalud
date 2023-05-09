@@ -121,6 +121,7 @@ main {
     padding: 0;
 }
 
-.banner {
+.banner-image {
     width: 80%;
+    height: auto;
 }
