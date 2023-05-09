@@ -4,8 +4,8 @@ html {
 }
 
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -15,11 +15,12 @@ body {
     box-sizing: border-box;
 }
 
-/* #header {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    padding: 3px 3px;
-} */
+/* Establecemos los estilos para el encabezado */
+header {
+    background-color: #003366; /* azul oscuro */
+    color: #FFFFFF; /* blanco para el texto */
+    padding: 20px;
+  }
 
 nav {
     position: fixed;
@@ -27,12 +28,15 @@ nav {
     left: 0;
     width: 100%;
     height: 45px;
-    background-color: #333;
-    -webkit-tap-highlight-color: #383838;
+    background-color: #006699; /* azul medio */
+    color: #FFFFFF; /* blanco para el texto */
+    -webkit-tap-highlight-color: #006699;
     z-index: 100;
 }
 main {
     overflow: hidden;
+    background-color: #FFFFFF; /* blanco */
+    padding: 20px;
 }
 .menu {
     display: flex;
@@ -42,7 +46,7 @@ main {
 }
 
 .menu a {
-    color: White;
+    color: #006699;
     text-decoration: none;
     text-align: center;
     padding: 9px;
@@ -50,13 +54,13 @@ main {
 
 .menu a:active,
 .menu a:hover {
-    background-color: #383838;
+    background-color: #003366;
     border-radius: 25px
 }
 
 #void {
     height: 45px;
-    background-color: #333;
+    background-color: #fff;
     top: 0;
     left: 0;
     z-index: -100;
@@ -71,10 +75,10 @@ main {
 .card {
     width: 250px;
     height: 450px;
-    background-color: #333;
+    background-color: #006699;
     border-radius: 25px;
     margin: 10px;
-    box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #003366;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +87,7 @@ main {
 }
 
 #personal-card {
-    background-color: #333;
+    background-color: #006699;
     border-radius: 25px;
     padding: 10px;
     margin: 15px;
