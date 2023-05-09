@@ -46,7 +46,7 @@ main {
 }
 
 .menu a {
-    color: #006699;
+    color: #003366;
     text-decoration: none;
     text-align: center;
     padding: 9px;
@@ -54,7 +54,7 @@ main {
 
 .menu a:active,
 .menu a:hover {
-    background-color: #003366;
+    background-color: #ffffff;
     border-radius: 25px
 }
 
